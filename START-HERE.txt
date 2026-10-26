@@ -1,0 +1,39 @@
+FileTidy 1.0.0 - Windows x64
+==========================
+
+START
+1. Extract the entire ZIP to a folder on your computer.
+2. Double-click FileTidy.exe.
+3. Click Browse folder, review the preview, then click Organize files.
+
+Python does not need to be installed. No administrator privileges or
+installation are required. First launch may take a few seconds while the
+bundled runtime is extracted to your temporary folder.
+
+FILES STAY LOCAL
+Category folders are created inside the folder you select.
+C/C++ files go to Code. Unknown extensions receive their own categories.
+Use Undo last batch to restore the original file locations.
+Use Clear history to keep the result and enable another batch.
+
+COMPATIBILITY
+This is the Windows x64 build, tested on Windows 11 x64.
+It is not a macOS/Linux executable. Other Windows versions have not been
+verified. This release is unsigned and has no verified-publisher signature.
+
+LIMITATIONS
+Only direct files are organized. Existing subfolders and dot-prefixed
+files are skipped. Do not modify files during an operation or run multiple
+instances on the same folder. After an interrupted operation, inspect the
+source and destination before deleting anything. Undo skips edited files
+and name conflicts. This application does not replace a backup.
+
+LICENSES
+FileTidy is MIT licensed; see LICENSE.
+Bundled runtime and packaging notices are in the licenses folder.
+
+BUILD
+Version: 1.0.0
+Architecture: Windows x64
+Python runtime: 3.12.14
+Packager: PyInstaller 6.22.3
